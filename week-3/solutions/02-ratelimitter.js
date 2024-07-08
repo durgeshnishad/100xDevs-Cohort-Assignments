@@ -15,6 +15,7 @@ setInterval(() => {
     numberOfRequestsForUser = {};
 }, 1000)
 // 
+
 app.use(function(req, res, next) {
   const userId = req.headers["user-id"];
 
